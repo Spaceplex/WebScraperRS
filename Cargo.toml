@@ -1,0 +1,11 @@
+[package]
+name = "scraping"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chromiumoxide = "0.9.1"
+csv = "1.4.0"
+serde = { version = "1.0.228", features = ["derive"] }
+thirtyfour = "0.37.1"
+tokio = { version = "1.52.3", features = ["full"] }
